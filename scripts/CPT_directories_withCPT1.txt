@@ -1,0 +1,15 @@
+~/gain_model/data/CPTs/CPT1/20250401_130140/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT2/20250403_161740/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT3/20250404_121432/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT4b/20250408_131721/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT5/20250409_125612/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT6+Science1/20250410_122035/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT7+Science3/20250411_130311/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT8+Science5/20250411_171000/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT9+Science6/20250414_103758/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT10+Science7/20250414_180050/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT11+Science9/20250414_222247/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT12+Science11/20250415_031658/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT13/20250415_062351/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT15/20250417_105301/spt/session_cpt-short_awg/
+~/gain_model/data/CPTs/CPT16/20250417_135059/spt/session_cpt-short_awg/

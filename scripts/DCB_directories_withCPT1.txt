@@ -1,0 +1,15 @@
+~/gain_model/scripts/decoded_telemetry/CPT1
+~/gain_model/scripts/decoded_telemetry/CPT2
+~/gain_model/scripts/decoded_telemetry/CPT3
+~/gain_model/scripts/decoded_telemetry/CPT4
+~/gain_model/scripts/decoded_telemetry/CPT5
+~/gain_model/scripts/decoded_telemetry/CPT6
+~/gain_model/scripts/decoded_telemetry/CPT7
+~/gain_model/scripts/decoded_telemetry/CPT8
+~/gain_model/scripts/decoded_telemetry/CPT9
+~/gain_model/scripts/decoded_telemetry/CPT10
+~/gain_model/scripts/decoded_telemetry/CPT11
+~/gain_model/scripts/decoded_telemetry/CPT12
+~/gain_model/scripts/decoded_telemetry/CPT13
+~/gain_model/scripts/decoded_telemetry/CPT15
+~/gain_model/scripts/decoded_telemetry/CPT16
