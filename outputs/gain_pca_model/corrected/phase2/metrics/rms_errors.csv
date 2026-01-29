@@ -1,0 +1,73 @@
+component,gain_setting,model,rms_error,preamp_removed
+PC1,L0,Mean only,0.000169,True
+PC1,L0,Linear,7e-06,True
+PC1,L0,Quadratic,4e-06,True
+PC1,M0,Mean only,0.009524,True
+PC1,M0,Linear,0.000344,True
+PC1,M0,Quadratic,0.00027,True
+PC1,H0,Mean only,0.40126,True
+PC1,H0,Linear,0.016496,True
+PC1,H0,Quadratic,0.01222,True
+PC1,L1,Mean only,0.000145,True
+PC1,L1,Linear,6e-06,True
+PC1,L1,Quadratic,3e-06,True
+PC1,M1,Mean only,0.007739,True
+PC1,M1,Linear,0.00035,True
+PC1,M1,Quadratic,0.000144,True
+PC1,H1,Mean only,0.332584,True
+PC1,H1,Linear,0.012246,True
+PC1,H1,Quadratic,0.008317,True
+PC1,L2,Mean only,0.00016,True
+PC1,L2,Linear,8e-06,True
+PC1,L2,Quadratic,5e-06,True
+PC1,M2,Mean only,0.009159,True
+PC1,M2,Linear,0.000446,True
+PC1,M2,Quadratic,0.000139,True
+PC1,H2,Mean only,0.384929,True
+PC1,H2,Linear,0.017647,True
+PC1,H2,Quadratic,0.009858,True
+PC1,L3,Mean only,0.000154,True
+PC1,L3,Linear,7e-06,True
+PC1,L3,Quadratic,4e-06,True
+PC1,M3,Mean only,0.008343,True
+PC1,M3,Linear,0.000372,True
+PC1,M3,Quadratic,0.000357,True
+PC1,H3,Mean only,0.364725,True
+PC1,H3,Linear,0.01378,True
+PC1,H3,Quadratic,0.009933,True
+PC2,L0,Mean only,1.2e-05,True
+PC2,L0,Linear,2e-06,True
+PC2,L0,Quadratic,1e-06,True
+PC2,M0,Mean only,0.000551,True
+PC2,M0,Linear,6.6e-05,True
+PC2,M0,Quadratic,3.2e-05,True
+PC2,H0,Mean only,0.02411,True
+PC2,H0,Linear,0.005149,True
+PC2,H0,Quadratic,0.002219,True
+PC2,L1,Mean only,1.4e-05,True
+PC2,L1,Linear,5e-06,True
+PC2,L1,Quadratic,3e-06,True
+PC2,M1,Mean only,0.000656,True
+PC2,M1,Linear,0.000101,True
+PC2,M1,Quadratic,4.5e-05,True
+PC2,H1,Mean only,0.031696,True
+PC2,H1,Linear,0.005151,True
+PC2,H1,Quadratic,0.001213,True
+PC2,L2,Mean only,1.2e-05,True
+PC2,L2,Linear,1e-06,True
+PC2,L2,Quadratic,1e-06,True
+PC2,M2,Mean only,0.000575,True
+PC2,M2,Linear,3.5e-05,True
+PC2,M2,Quadratic,1.5e-05,True
+PC2,H2,Mean only,0.025978,True
+PC2,H2,Linear,0.00249,True
+PC2,H2,Quadratic,0.001036,True
+PC2,L3,Mean only,1e-05,True
+PC2,L3,Linear,1e-06,True
+PC2,L3,Quadratic,1e-05,True
+PC2,M3,Mean only,0.000487,True
+PC2,M3,Linear,6.8e-05,True
+PC2,M3,Quadratic,2.2e-05,True
+PC2,H3,Mean only,0.021614,True
+PC2,H3,Linear,0.002374,True
+PC2,H3,Quadratic,0.00127,True

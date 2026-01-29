@@ -1,0 +1,73 @@
+component,gain_setting,model,rms_error,preamp_removed
+PC1,L0,Mean only,0.000237,False
+PC1,L0,Linear,7e-06,False
+PC1,L0,Quadratic,4e-06,False
+PC2,L0,Mean only,1.3e-05,False
+PC2,L0,Linear,2e-06,False
+PC2,L0,Quadratic,0.0,False
+PC1,M0,Mean only,0.013544,False
+PC1,M0,Linear,0.000367,False
+PC1,M0,Quadratic,0.000216,False
+PC2,M0,Mean only,0.0006,False
+PC2,M0,Linear,5.9e-05,False
+PC2,M0,Quadratic,3.7e-05,False
+PC1,H0,Mean only,0.596172,False
+PC1,H0,Linear,0.01519,False
+PC1,H0,Quadratic,0.010811,False
+PC2,H0,Mean only,0.02631,False
+PC2,H0,Linear,0.00423,False
+PC2,H0,Quadratic,0.002013,False
+PC1,L1,Mean only,0.000235,False
+PC1,L1,Linear,6e-06,False
+PC1,L1,Quadratic,2e-06,False
+PC2,L1,Mean only,1.5e-05,False
+PC2,L1,Linear,3e-06,False
+PC2,L1,Quadratic,1e-06,False
+PC1,M1,Mean only,0.012223,False
+PC1,M1,Linear,0.000358,False
+PC1,M1,Quadratic,0.000172,False
+PC2,M1,Mean only,0.000681,False
+PC2,M1,Linear,0.0001,False
+PC2,M1,Quadratic,3e-05,False
+PC1,H1,Mean only,0.542047,False
+PC1,H1,Linear,0.013774,False
+PC1,H1,Quadratic,0.028333,False
+PC2,H1,Mean only,0.03156,False
+PC2,H1,Linear,0.004586,False
+PC2,H1,Quadratic,0.000916,False
+PC1,L2,Mean only,0.000242,False
+PC1,L2,Linear,8e-06,False
+PC1,L2,Quadratic,5e-06,False
+PC2,L2,Mean only,1.2e-05,False
+PC2,L2,Linear,1e-06,False
+PC2,L2,Quadratic,1e-06,False
+PC1,M2,Mean only,0.013924,False
+PC1,M2,Linear,0.000451,False
+PC1,M2,Quadratic,0.00013,False
+PC2,M2,Mean only,0.000589,False
+PC2,M2,Linear,3.8e-05,False
+PC2,M2,Quadratic,1.5e-05,False
+PC1,H2,Mean only,0.614501,False
+PC1,H2,Linear,0.01635,False
+PC1,H2,Quadratic,0.009072,False
+PC2,H2,Mean only,0.026136,False
+PC2,H2,Linear,0.002872,False
+PC2,H2,Quadratic,0.001779,False
+PC1,L3,Mean only,0.000239,False
+PC1,L3,Linear,7e-06,False
+PC1,L3,Quadratic,4e-06,False
+PC2,L3,Mean only,1e-05,False
+PC2,L3,Linear,1e-06,False
+PC2,L3,Quadratic,3e-06,False
+PC1,M3,Mean only,0.012545,False
+PC1,M3,Linear,0.000384,False
+PC1,M3,Quadratic,0.000485,False
+PC2,M3,Mean only,0.000497,False
+PC2,M3,Linear,5.9e-05,False
+PC2,M3,Quadratic,2.2e-05,False
+PC1,H3,Mean only,0.558085,False
+PC1,H3,Linear,0.01367,False
+PC1,H3,Quadratic,0.012838,False
+PC2,H3,Mean only,0.022117,False
+PC2,H3,Linear,0.002909,False
+PC2,H3,Quadratic,0.0019,False

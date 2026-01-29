@@ -1,0 +1,14 @@
+~/gain_model/data/plots/CPT2/
+~/gain_model/data/plots/CPT3/
+~/gain_model/data/plots/CPT4/
+~/gain_model/data/plots/CPT5/
+~/gain_model/data/plots/CPT6/
+~/gain_model/data/plots/CPT7/
+~/gain_model/data/plots/CPT8/
+~/gain_model/data/plots/CPT9/
+~/gain_model/data/plots/CPT10/
+~/gain_model/data/plots/CPT11/
+~/gain_model/data/plots/CPT12/
+~/gain_model/data/plots/CPT13/
+~/gain_model/data/plots/CPT15/
+~/gain_model/data/plots/CPT16/
