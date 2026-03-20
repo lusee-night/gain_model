@@ -74,6 +74,7 @@ ALPHAS_DIR = os.path.join(OUT_CORR_PHASE2, "alphas")
 PC_SCATTER_DIR = os.path.join(OUT_CORR_PHASE2, "pc_scatter")
 SPECTRA_PRED_DIR = os.path.join(OUT_CORR_PHASE2, "spectra_predictions")
 SPECTRA_PLOT_DIR = os.path.join(OUT_CORR_PHASE2, "spectra_plots")
+SPECTRA_PLOT_PC12ONLY_DIR = os.path.join(OUT_CORR_PHASE2, "spectra_plots_actual_pc12_only")
 METRICS_DIR = os.path.join(OUT_CORR_PHASE2, "metrics")
 
 OUT_RAW = os.path.join(OUT_ROOT, "raw_with_preamps")
@@ -89,7 +90,7 @@ CPT1_SPECTRA_DIR = os.path.join(OUT_CPT1, "spectra")
 
 for d in [
     PREAMP_DIR, MATRIX_DIR,
-    ALPHAS_DIR, PC_SCATTER_DIR, SPECTRA_PRED_DIR, SPECTRA_PLOT_DIR, METRICS_DIR,
+    ALPHAS_DIR, PC_SCATTER_DIR, SPECTRA_PRED_DIR, SPECTRA_PLOT_DIR, SPECTRA_PLOT_PC12ONLY_DIR, METRICS_DIR,
     RAW_PC_SCATTER_DIR, RAW_METRICS_DIR,
     COMPARE_STACKED_DIR,
     CPT1_RATIO_DIR, CPT1_SPECTRA_DIR,
@@ -537,6 +538,56 @@ def phase2_jackknife_on_corrected_pca():
         pcs_12 = pcs_df[["PC1", "PC2"]].to_numpy()
 
         actual_preds_12 = reconstruct_gains(pcs_12, mean_vec, eigvecs, k=2)
+
+        # ------------------------------------------------------------
+        # NEW EXPORT: Measured vs Actual PC12 reconstruction ONLY
+        # ------------------------------------------------------------
+        errors_actual = measured - actual_preds_12
+        sigma_per_freq_actual = np.sqrt(np.mean(errors_actual**2, axis=0))
+
+        for i, cpt in enumerate(CPT_NAMES):
+            fig, ax = plt.subplots(figsize=(8.5, 5.2))
+
+            ax.plot(freqs, measured[i, :],
+                    label="Measured (corrected)",
+                    linewidth=1.6)
+
+            ax.errorbar(
+                freqs,
+                actual_preds_12[i, :],
+                yerr=sigma_per_freq_actual,
+                fmt="--",
+                label="Actual PC1+PC2 reconstruction",
+                alpha=0.90,
+                capsize=3
+            )
+
+            ax.set_xlabel("Frequency (MHz)")
+            ax.set_ylabel("Gain (linear)")
+
+            # nRMS from truncating after PC2 (i.e., dropping PCs 3+)
+            nrms_trunc = float(
+                np.sqrt(np.mean((measured[i, :] - actual_preds_12[i, :]) ** 2)) / np.mean(measured[i, :])
+            )
+
+
+            fig.suptitle(f"{gain} — {cpt}", fontsize=12, y=0.98)
+            ax.set_title(
+                f"PC truncation error (drop PCs 3+):  nRMS = {nrms_trunc:.4f}",
+                fontsize=10
+            )
+
+            ax.legend()
+            ax.grid(True)
+            fig.tight_layout(rect=(0, 0, 1, 0.94))
+
+            out_png = os.path.join(
+                SPECTRA_PLOT_PC12ONLY_DIR,
+                f"{gain}_actual_PC12_{cpt}.png"
+            )
+            fig.savefig(out_png)
+            plt.close(fig)
+
 
         np.savetxt(
             os.path.join(SPECTRA_PRED_DIR, f"{gain}_actual_PC12_reconstruction.csv"),
